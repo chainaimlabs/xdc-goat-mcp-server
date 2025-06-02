@@ -1,4 +1,18 @@
 
+# XDC GOAT MCP Server
+
+A comprehensive Model Context Protocol (MCP) server that provides blockchain services for XDC Network and other EVM-compatible chains. This server enables AI agents to interact with blockchain data, manage wallets, transfer tokens, mint NFTs, and perform various DeFi operations through a unified interface.
+
+## Features
+
+- **Multi-Chain Support**: XDC Network (Chain ID: 51) and other EVM-compatible networks
+- **Wallet Management**: Support for MetaMask, Crossmint, and Civic wallet providers
+- **Token Operations**: Native tokens, ERC20, ERC721, and advanced ERC-6960 dual layer tokens
+- **NFT Minting**: Support for various NFT standards including batch operations
+- **DeFi Operations**: Token transfers, approvals, and allowance management
+- **ENS Resolution**: Human-readable address resolution
+- **Real-time Data**: Balance checking, transaction monitoring, and network status
+
 ## Installation
 
 ### Prerequisites
@@ -53,4 +67,3 @@ Add the following to your Claude Desktop configuration file (`claude_desktop_con
     }
   }
 ```
-
